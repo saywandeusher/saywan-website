@@ -1,0 +1,12 @@
+.aboutMeSubHeading {
+  color: gold;
+  text-align: center;
+}
+
+.profilePic {
+  max-width: 15rem;
+  max-height: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
