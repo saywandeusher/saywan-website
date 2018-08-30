@@ -2,7 +2,7 @@
   "name": "saywanwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://saywandeusher.github.io/saywan-website",
+  "homepage": "https://saywanong.com",
   "dependencies": {
     "ajv": "^6.5.3",
     "css-loader": "^1.0.0",
