@@ -19,6 +19,12 @@ export default class About extends React.Component {
             <p>I have a strong passion for programming, more specifically in the the field of front-end web developer. Perservence, enthusiasm and adaptability are core values I wish to uphold as I continue to pursue my career as a front-end web developer.</p>
           </div>
         </div>
+        <div className="row">
+          <div className="col s12">
+          <img src={require('../../Images/megaman.png')} alt="megaman" className="megamanPic" />
+          <img src={require('../../Images/buster.png')} alt="buster" className="busterPic" />
+          </div>
+        </div>
       </div>
       </section>
     );
