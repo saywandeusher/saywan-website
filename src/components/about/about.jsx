@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css'
+import { Parallax } from 'react-scroll-parallax';
 
 export default class About extends React.Component {
 
@@ -9,6 +10,9 @@ export default class About extends React.Component {
       <div id="aboutme" className="container section scrollspy">
         <div className="row">
           <div className="col s12">
+          {/* <Parallax className="busterPicParallax" offsetXMax={380} offsetXMin={-50} slowerScrollRate tag="figure" > */}
+          <img src={require('../../Images/crown.png')} alt="crown" className="crownPic" />
+          {/* </Parallax> */}
             <img src={require('../../Images/profile.jpg')} alt="backgroundimg1" className="circle responsive-img profilePic" />
           </div>
         </div>
@@ -22,7 +26,9 @@ export default class About extends React.Component {
         <div className="row">
           <div className="col s12">
           <img src={require('../../Images/megaman.png')} alt="megaman" className="megamanPic" />
-          <img src={require('../../Images/buster.png')} alt="buster" className="busterPic" />
+          <Parallax className="busterPicParallax" offsetXMax={-45} offsetXMin={130} slowerScrollRate tag="figure" >
+            <img src={require('../../Images/buster.png')} alt="buster" className="busterPic" />
+          </Parallax>
           </div>
         </div>
       </div>

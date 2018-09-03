@@ -11,11 +11,15 @@
   margin-right: auto
 }
 
-.megamanPic {
+.crownPic {
+  position: absolute;
   max-width: 5rem;
   max-height: 5rem;
+  right: 43rem;
 }
 
-.busterPic {
-  margin-bottom: 1.5vh;
+.megamanPic {
+  position: absolute;
+  max-width: 5rem;
+  max-height: 5rem;
 }
