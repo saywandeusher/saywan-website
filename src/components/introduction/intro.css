@@ -1,2 +1,34 @@
-.parallax-container {
-  height: 54rem; }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .parallax-container {
+    height: 54rem;
+  }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .parallax-container {
+    height: 54rem;
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .parallax-container {
+    height: 54rem;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .parallax-container {
+    height: 54rem;
+  }
+}
+
+/*(24inch monitor, 1920px and up)*/
+@media only screen and (min-width: 1920px) {
+  .parallax-container {
+    height: 66rem;
+  }
+}

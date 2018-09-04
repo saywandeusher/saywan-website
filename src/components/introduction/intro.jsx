@@ -13,7 +13,7 @@ export default class Intro extends React.Component {
               <a href="#aboutme" className="waves-effect waves-light btn-large white lighten-2 black-text pulse">CHECK ME OUT</a>
             </div>
           </div>
-        </div>  
+        </div>
         <div className="parallax">
           <img src={require('../../Images/introBG.jpg')} alt="backgroundimg1" />
         </div>
